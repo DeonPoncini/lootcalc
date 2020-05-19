@@ -1,8 +1,10 @@
+{ "gear":
 [
     {
         "name": "Felheart Gloves",
         "sequence": 1,
         "material": "Cloth",
+        "weapon": "",
         "restrict": "Warlock",
         "stats": {
             "attributes": {
@@ -42,6 +44,7 @@
         "name": "Gauntlets of Might",
         "sequence": 1,
         "material": "Plate",
+        "weapon": "",
         "restrict": "Warrior",
         "stats": {
             "attributes": {
@@ -78,3 +81,4 @@
         }
     }
 ]
+}
