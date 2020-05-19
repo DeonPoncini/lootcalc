@@ -1,0 +1,68 @@
+{
+    "attributes": {
+        "strength": 0.0,
+        "agility": 3.3,
+        "stamina": 0.0,
+        "intellect": 0.0,
+        "spirit": 0.0,
+        "health": 0.0,
+        "mana": 0.0
+    },
+    "spell": {
+        "spell_damage": 0.0,
+        "healing": 0.0,
+        "spell_hit": 0.0,
+        "spell_crit": 0.0,
+        "spell_pen": 0.0,
+        "mp5": 0.0,
+        "arcane": 0.0,
+        "fire": 0.0,
+        "frost": 0.0,
+        "nature": 0.0,
+        "shadow": 0.0
+    },
+    "melee": {
+        "ap": 1.0,
+        "feral_ap": 0.0,
+        "weapon_dps": 0.0,
+        "weapon_speed": 0.0,
+        "hit": 38.0,
+        "crit": 32.0,
+        "haste": 0.0
+    },
+    "ranged": {
+        "ranged_dps": 14.0,
+        "ranged_speed": 100.0,
+        "rap": 1.0,
+        "ranged_hit": 0.0
+    },
+    "weaponskill": {
+        "axe": 0.0,
+        "bow": 0.0,
+        "crossbow": 0.0,
+        "dagger": 0.0,
+        "gun": 0.0,
+        "mace": 0.0,
+        "sword": 0.0,
+        "axe2h": 0.0,
+        "mace2h": 0.0,
+        "sword2h": 0.0
+    },
+    "defense": {
+        "armor": 0.0,
+        "armor_bonus": 0.0,
+        "defense": 0.0,
+        "dodge": 0.0,
+        "parry": 0.0,
+        "block_chance": 0.0,
+        "block_base": 0.0,
+        "block_bonus": 0.0
+    },
+    "resistances": {
+        "arcane": 0.0,
+        "fire": 0.0,
+        "frost": 0.0,
+        "nature": 0.0,
+        "shadow": 0.0
+    }
+}

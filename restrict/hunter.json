@@ -1,0 +1,5 @@
+{
+    "armor": ["Cloth", "Leather", "Mail"],
+    "weapons": ["Bow", "Crossbow", "Gun", "Sword2H", "Axe2H", "Sword1H",
+        "Axe1H", "Fist", "Spear", "Daggers", "Staves", "Thrown"]
+}
