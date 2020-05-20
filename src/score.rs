@@ -4,7 +4,7 @@ use crate::gear::Gear;
 use crate::stats::Stats;
 use crate::restriction::Restriction;
 
-#[derive(Debug)]
+#[derive(Clone, Debug)]
 pub struct Score {
     name: String,
     value: f32,

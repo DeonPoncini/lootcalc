@@ -5,7 +5,7 @@ use crate::stats::Stats;
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Gear {
     pub name: String,
-    pub sequence: usize,
+    pub generation: usize,
     #[serde(default)]
     pub material: String,
     #[serde(default)]

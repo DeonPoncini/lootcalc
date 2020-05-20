@@ -2,7 +2,7 @@
 [
     {
         "name": "Felheart Gloves",
-        "sequence": 1,
+        "generation": 1,
         "material": "Cloth",
         "restrict": "warlock",
         "stats": {
@@ -17,7 +17,7 @@
     },
     {
         "name": "Gauntlets of Might",
-        "sequence": 1,
+        "generation": 1,
         "material": "Plate",
         "restrict": "warrior",
         "stats": {
@@ -29,7 +29,7 @@
     },
     {
         "name": "Giantstalker's Gloves",
-        "sequence": 1,
+        "generation": 1,
         "material": "Mail",
         "restrict": "hunter",
         "stats": {
