@@ -26,6 +26,10 @@ impl Score {
         self.name.as_str()
     }
 
+    pub fn value(&self) -> f32 { self.value }
+    pub fn upgrade(&self) -> f32 { self.upgrade }
+    pub fn replacement(&self) -> f32 { self.replacement }
+
     pub fn score(&self) -> i32 {
         let total = self.value + self.upgrade + self.replacement;
         total.round() as i32

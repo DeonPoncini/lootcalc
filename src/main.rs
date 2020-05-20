@@ -72,7 +72,9 @@ fn process(class: &str, spec: &str, gear: &[Gears])
                 continue;
             }
             // store in the heap
-            bases[g.generation].push(score);
+            if score.score() > 0 {
+                bases[g.generation].push(score);
+            }
         }
     }
 
@@ -134,20 +136,30 @@ fn process(class: &str, spec: &str, gear: &[Gears])
     Ok(output)
 }
 
+fn print_output(class: &str, spec: &str, gear: &[Gears]) -> Result<()> {
+    let results = process(class, spec, gear)?;
+    let mut x = 0;
+    println!("{} {}", class, spec);
+    println!("--------------------");
+    for r in results {
+        println!("{}", GENERATIONS[x]);
+        println!("Name\tValue\tUpgrade\tReplace\tScore");
+        for s in r {
+            println!("{}\t{}\t{}\t{}\t{}", s.name(), s.value(), s.upgrade(),
+                     s.replacement(), s.score());
+        }
+        x = x + 1;
+        println!("");
+    }
+    Ok(())
+}
+
 fn main() -> Result<()> {
     let mut gear = Vec::new();
     // load up the gear
     gear.push(load_gear("hands")?);
 
     // process it per class and spec
-    let results = process("hunter", "dps", &gear)?;
-    let mut x = 0;
-    for r in results {
-        println!("{}", GENERATIONS[x]);
-        for s in r {
-            println!("{}\t{}", s.name(), s.score());
-        }
-        x = x + 1;
-    }
+    print_output("hunter", "dps", &gear)?;
     Ok(())
 }
