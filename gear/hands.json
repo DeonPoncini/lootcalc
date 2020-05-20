@@ -4,7 +4,6 @@
         "name": "Felheart Gloves",
         "sequence": 1,
         "material": "Cloth",
-        "weapon": "",
         "restrict": "warlock",
         "stats": {
             "attributes": {
@@ -20,7 +19,6 @@
         "name": "Gauntlets of Might",
         "sequence": 1,
         "material": "Plate",
-        "weapon": "",
         "restrict": "warrior",
         "stats": {
             "attributes": { "strength": 22.0, "stamina": 17.0 },
@@ -33,7 +31,6 @@
         "name": "Giantstalker's Gloves",
         "sequence": 1,
         "material": "Mail",
-        "weapon": "",
         "restrict": "hunter",
         "stats": {
             "attributes": { "agility": 18.0, "stamina": 12.0 },

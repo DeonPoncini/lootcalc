@@ -6,8 +6,11 @@ use crate::stats::Stats;
 pub struct Gear {
     pub name: String,
     pub sequence: usize,
+    #[serde(default)]
     pub material: String,
+    #[serde(default)]
     pub weapon: String,
+    #[serde(default)]
     pub restrict: String,
     pub stats: Stats
 }
