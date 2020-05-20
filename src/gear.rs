@@ -4,15 +4,15 @@ use crate::stats::Stats;
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Gear {
-    name: String,
-    sequence: u32,
-    material: String,
-    weapon: String,
-    restrict: String,
-    stats: Stats
+    pub name: String,
+    pub sequence: usize,
+    pub material: String,
+    pub weapon: String,
+    pub restrict: String,
+    pub stats: Stats
 }
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Gears {
-    gear: Vec<Gear>,
+    pub gear: Vec<Gear>,
 }
